@@ -1,0 +1,13 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+local games = {
+    [16732694052] = 'https://api.luarmor.net/files/v3/loaders/f6c9f276f7d6a7dd6edfd0173d7a211d.lua', -- Fisch
+}
+
+if games[game.PlaceId] then
+    loadstring(game:HttpGet(games[game.PlaceId]))()
+else
+    warn("Unsupported game")
+end
