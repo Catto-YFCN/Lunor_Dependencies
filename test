@@ -1,0 +1,15 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+local games = {
+    [16732694052] = 'f6c9f276f7d6a7dd6edfd0173d7a211d', -- API key for Fisch
+}
+
+local function getGameId(placeId)
+    if games[placeId] then
+        return placeId
+    else
+        return "Unsupported game"
+    end
+end
