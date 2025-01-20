@@ -1,5 +1,5 @@
 local games = {
-    [16732694052] = 'f6c9f276f7d6a317de064314bfad4b987464e87fc5c4a', -- API key for Fisch
+    [16732694052] = '317de064314bfad4b987464e87fc5c4a', -- API key for Fisch
 }
 
 local function getApiKey(placeId)
