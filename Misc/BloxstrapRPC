@@ -95,8 +95,6 @@ function BloxstrapRPC.SendMessage(command: string, data: any)
 end
 
 function BloxstrapRPC.SetRichPresence(data: RichPresence)
-    if not wax.shared.DiscordRPCEnabled and data.details ~= "<reset>" and data.state ~= "<reset>" then return end
-
     if data.timeStart ~= nil then
         data.timeStart = math.round(data.timeStart)
     end
