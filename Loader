@@ -1,5 +1,6 @@
 if game.PlaceId == 18668065416 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Just3itx/Lunor-Loadstrings/refs/heads/main/Games", true))()
+    return
 end
 
 
