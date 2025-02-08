@@ -4,6 +4,7 @@ end
 
 local games = {
     [16732694052] = 'https://api.luarmor.net/files/v3/loaders/f6c9f276f7d6a7dd6edfd0173d7a211d.lua', -- Fisch
+    [18668065416] = 'https://api.luarmor.net/files/v3/loaders/68dca2660c852ebceccd3196b8cbc465.lua', -- BLR
 }
 
 if games[game.PlaceId] then
