@@ -1,5 +1,6 @@
 local games = {
     [16732694052] = 'f6c9f276f7d6a7dd6edfd0173d7a211d', -- API key for Fisch
+    [18668065416] = '68dca2660c852ebceccd3196b8cbc465', -- API Key for Blue Lock: Rivals
 }
 
 local function getApiKey(placeId)
