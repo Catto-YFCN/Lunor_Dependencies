@@ -2,13 +2,16 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
+local creator = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Creator.CreatorTargetId
+
 local games = {
-    [16732694052] = 'https://api.luarmor.net/files/v3/loaders/bab9043a5329efca92f29bfdc02da692.lua', -- Fisch
-    [18668065416] = 'https://api.luarmor.net/files/v3/loaders/e6cacbb8379e05864621798d74ceadc8.lua', -- BLR
+    [7381705] = 'https://api.luarmor.net/files/v3/loaders/bab9043a5329efca92f29bfdc02da692.lua', -- Fisch
+    [34671275] = 'https://api.luarmor.net/files/v3/loaders/e6cacbb8379e05864621798d74ceadc8.lua', -- BLR
+    [11867394] = 'https://api.luarmor.net/files/v3/loaders/ffca5025f00220511079b07353d16d48.lua', -- DR
 }
 
-if games[game.PlaceId] then
-    loadstring(game:HttpGet(games[game.PlaceId]))()
+if games[creator] then
+    loadstring(game:HttpGet(games[creator]))()
 else
     warn("Unsupported game")
 end
