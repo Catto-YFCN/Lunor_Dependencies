@@ -1,6 +1,6 @@
 local creator = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Creator.CreatorTargetId
 
-if creator == 11867394 then
+if creator == 11867394 or creator == 34671275 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Just3itx/Lunor-Loadstrings/refs/heads/main/Games'))()
     return
 end
