@@ -4,6 +4,7 @@ local games = {
     [11867394] = '725ce097c244a8e5ee7cd4625820718a', -- DR
     [34644452] = '7d62d8d6c100c07fe0bee9ca371cdffe', -- AC
     [35687503] = '5a8678a607751f74d8042b9b46bf00c8', -- Hunters
+    [1912490] = '4df8f816d04143ecfb2f7523fbeeaf39', -- BGSI
 }
 
 local function getApiKey(placeId)
