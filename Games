@@ -10,6 +10,7 @@ local games = {
     [11867394] = 'https://api.luarmor.net/files/v3/loaders/725ce097c244a8e5ee7cd4625820718a.lua', -- DR
     [34644452] = 'https://api.luarmor.net/files/v3/loaders/7d62d8d6c100c07fe0bee9ca371cdffe.lua', -- AC
     [35687503] = 'https://api.luarmor.net/files/v3/loaders/5a8678a607751f74d8042b9b46bf00c8.lua', -- Hunters
+    [1912490] = 'https://api.luarmor.net/files/v3/loaders/4df8f816d04143ecfb2f7523fbeeaf39.lua', -- Hunters
 }
 
 if games[creator] then
