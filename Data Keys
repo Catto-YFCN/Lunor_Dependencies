@@ -3,7 +3,7 @@ local games = {
     [34671275] = '68dca2660c852ebceccd3196b8cbc465', -- BLR
     [11867394] = '725ce097c244a8e5ee7cd4625820718a', -- DR
     [34644452] = '7d62d8d6c100c07fe0bee9ca371cdffe', -- AC
-
+    [35687503] = '5a8678a607751f74d8042b9b46bf00c8', -- Hunters
 }
 
 local function getApiKey(placeId)
